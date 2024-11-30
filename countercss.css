@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);    
+     height: 100vh; /*makes the body height fill the entire viewport */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+#h2{
+    display: flex;
+    justify-content: center;
+    color:#ffe066;
+    font-size: 2rem;
+}
+#number{
+    font-size: 4rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ffe066
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 5px;
+}
+button{
+    font-size: 1.2rem;
+    padding:10px 20px;
+    border:none;
+    border-radius: 8px; /* makes the edges round */
+    cursor: pointer;
+    background-color: #ffe066;
+    color: #4c0080;
+    font-weight:bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+button:hover{
+    transform: scale(1.1); /* increases size when hovers */
+    box-shadow: :0 5px 15px rgba(0,0,0,0.3);
+}
+button:active{ 
+    /* transformation in button when pressed */
+    transform: scale(0.95);
+    box-shadow: 0 3px 8px rgba(0,0,0, 0.4);
+}
+
+#frame{
+    text-align: center;
+    background-color: #4c0080;
+    padding:20px 40px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+
+}
